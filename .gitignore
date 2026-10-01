@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+
+# HTML shells are generated from the React pages before dev/build.
+/index.html
+/como-funciona/
+/sobre/
+/faq/
+/indicacao/
+/privacidade/
+/termos/
+/contato/

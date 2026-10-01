@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#F3F7F4"/>
+  <circle cx="1010" cy="110" r="270" fill="#E2EFE8"/>
+  <circle cx="1010" cy="110" r="190" stroke="#C5DBCF" stroke-width="2"/>
+  <circle cx="1010" cy="110" r="120" stroke="#C5DBCF" stroke-width="2"/>
+  <path d="M0 504C245 412 360 565 570 492C790 416 950 492 1200 389V630H0V504Z" fill="#E8F1EB"/>
+  <path d="M78 85 118 108v46l-40 23-40-23v-46l40-23Z" stroke="#17634F" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m59 137 16-17 12 11 18-22" stroke="#17634F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="59" cy="137" r="4" fill="#F3F7F4" stroke="#17634F" stroke-width="3"/>
+  <circle cx="75" cy="120" r="4" fill="#F3F7F4" stroke="#17634F" stroke-width="3"/>
+  <circle cx="87" cy="131" r="4" fill="#F3F7F4" stroke="#17634F" stroke-width="3"/>
+  <circle cx="105" cy="109" r="4" fill="#F3F7F4" stroke="#17634F" stroke-width="3"/>
+  <text x="146" y="118" fill="#17241F" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.5">TreinandoIA</text>
+  <text x="44" y="270" fill="#17634F" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">GUIA INDEPENDENTE</text>
+  <text x="44" y="350" fill="#17241F" font-family="Arial, sans-serif" font-size="55" font-weight="700" letter-spacing="-2">Claru AI: como funciona</text>
+  <text x="47" y="410" fill="#536259" font-family="Arial, sans-serif" font-size="25">Projetos, requisitos e o que conferir antes de criar um perfil.</text>
+  <rect x="48" y="462" width="260" height="48" rx="8" fill="#17634F"/>
+  <text x="70" y="493" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing=".4">INFORMAÇÃO COM CONTEXTO</text>
+  <text x="49" y="568" fill="#5E6C65" font-family="Arial, sans-serif" font-size="14">Este site não é o site oficial da Claru.</text>
+</svg>
