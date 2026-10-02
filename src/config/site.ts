@@ -1,18 +1,18 @@
 export const site = {
   // Add the final HTTPS origin only: no path, query, fragment, or route.
   siteName: 'TreinandoIA',
-  siteUrl: 'iaclaru.pages.dev',
+  siteUrl: 'https://iaclaru.pages.dev',
   operatorName: 'Eximia Digital',
   contactEmail: 'eximiaeduc@gmail.com',
 
-  claruOfficialUrl: 'https://claru.ai/pt-br',
-  // Keep the referral URL here. CTA components read this value.
-  claruReferralUrl: 'https://app.claru.ai/signup?ref=ref_6v5dad7gpwpn',
+
+claruOfficialUrl: 'https://claru.ai/pt-br',
+claruReferralUrl: 'https://app.claru.ai/signup?ref=ref_6v5dad7gpwpn',
 
   // Optional. Leave empty until each ID exists and the site operator has configured consent.
   ga4Id: '',
   gtmId: '',
-  googleAdsId: '',
+  googleAdsId: 'AW-18228796227',
 
   socialImage: '/images/share-card.png',
 } as const
