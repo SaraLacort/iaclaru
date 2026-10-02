@@ -2,6 +2,8 @@ import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 const root = fileURLToPath(new URL('.', import.meta.url))
 const routeEntries = [
   'index.html',
@@ -21,6 +23,9 @@ const input = Object.fromEntries(
 export default defineConfig({
   base: '/',
   publicDir: resolve(root, 'public'),
+
+  plugins: [cloudflare()],
+
   build: {
     outDir: resolve(root, 'dist'),
     emptyOutDir: true,
