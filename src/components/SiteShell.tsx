@@ -22,10 +22,7 @@ export function SiteShell({ children, pathname, onOpenConsent }: Props) {
   return (
     <>
       <a className="skip-link" href="#main-content">Pular para o conteúdo</a>
-      <div className="independent-notice">
-        <span className="notice-dot" aria-hidden="true" />
-        Guia independente: não é o site oficial da Claru. Alguns links de cadastro são de indicação.
-      </div>
+
       <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="/" aria-label="TreinandoIA — página inicial">

@@ -1,9 +1,9 @@
 export const site = {
   // Add the final HTTPS origin only: no path, query, fragment, or route.
   siteName: 'TreinandoIA',
-  siteUrl: '',
-  operatorName: '',
-  contactEmail: '',
+  siteUrl: 'iaclaru.pages.dev',
+  operatorName: 'Eximia Digital',
+  contactEmail: 'eximiaeduc@gmail.com',
 
   claruOfficialUrl: 'https://claru.ai/pt-br',
   // Keep the referral URL here. CTA components read this value.

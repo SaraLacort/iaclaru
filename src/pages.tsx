@@ -35,11 +35,9 @@ function HomePage() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <p className="eyebrow"><span className="eyebrow-mark" /> PROJETOS DE DADOS PARA IA · GUIA INDEPENDENTE</p>
-            <h1>Entenda como a Claru AI apresenta projetos de dados para IA.</h1>
+            <h1>Grave tarefas do mundo real e ajude no treinamento de inteligência artificial.</h1>
             <p className="hero-lede">
-              A página oficial para colaboradores descreve atividades que podem transformar cenas e
-              tarefas do cotidiano em dados para sistemas de inteligência artificial. Aqui você vê
-              como funciona o perfil, o que pode variar e o que vale conferir antes de decidir.
+              Use seu celular para gravar tarefas do dia a dia seguindo as instruções da plataforma e receba por gravações aprovadas.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="/como-funciona/">Entender como funciona <span aria-hidden="true">→</span></a>
