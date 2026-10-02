@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "build": "npm run typecheck && node scripts/prerender.mjs && vite build && node scripts/postbuild.mjs",
     "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name iaclaru"
   },
   "dependencies": {
     "react": "19.3.0",

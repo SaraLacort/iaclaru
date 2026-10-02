@@ -1,6 +1,11 @@
 import type { MouseEvent, ReactNode } from 'react'
 import { site } from '../config/site'
-import { currentUtmParameters, referralHref, trackEvent } from '../tracking'
+import {
+  currentUtmParameters,
+  referralHref,
+  trackEvent,
+  trackGoogleAdsConversion,
+} from '../tracking'
 
 type Props = {
   children: ReactNode
@@ -14,6 +19,7 @@ export function ReferralLink({ children, className, ariaLabel }: Props) {
     const utms = currentUtmParameters()
     trackEvent('click_claru_signup', { link_domain: 'app.claru.ai', ...utms })
     trackEvent('outbound_claru', { link_domain: 'app.claru.ai', ...utms })
+    trackGoogleAdsConversion()
   }
 
   return (
@@ -23,6 +29,7 @@ export function ReferralLink({ children, className, ariaLabel }: Props) {
       target="_blank"
       rel="noopener noreferrer sponsored"
       data-referral-link
+      
       aria-label={ariaLabel}
       className={className}
     >
